@@ -97,6 +97,7 @@ public IActionResult Delete(int? id)
         return NotFound();  
     }  
     return View(employee);  
+    
 }  
   
 [HttpPost, ActionName("Delete")]  
